@@ -414,7 +414,7 @@ void MainWindow::checkConnected(const QString& line)
 		if (!appConfig().startedBefore() && isVisible()) {
 				QMessageBox::information(
 					this, "Synergy",
-					tr("Synergy is now connected, You can close the "
+					tr("Synergy is now connected, you can close the "
 					"config window. Synergy will remain connected in "
 					"the background."));
 
